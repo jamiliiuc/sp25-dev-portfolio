@@ -7,13 +7,14 @@
 
 /* Header styles start */
 
-header{
+header {
     background-color: #FFF8F3;
     background-image: url('images/developer.png'), url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, right bottom;
     padding-top: 50px;
 }
+
 .dark-01 {
     color: #181818;
 }
@@ -78,9 +79,11 @@ Banner styles start */
     display: flex;
     align-items: center;
 }
-.banner-info{
-    max-width:585px
+
+.banner-info {
+    max-width: 585px
 }
+
 .banner-greetings {
     color: #474747;
     font-family: "Open Sans";
@@ -96,7 +99,8 @@ Banner styles start */
     font-weight: 700;
     margin-bottom: 20px;
 }
-.banner-desc{
+
+.banner-desc {
     color: var(--Dark-03, #757575);
     font-family: "Open Sans";
     font-size: 18px;
@@ -104,6 +108,40 @@ Banner styles start */
     margin-bottom: 30px;
 }
 
-.banner img{
+.banner img {
     margin-right: 38px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 130px;
+}
+
+/* About Me section starts */
+.about{
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+}
+.about-title {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-desc {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
