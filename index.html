@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -32,8 +32,8 @@
                 <h1 class="banner-title">Mary Hardy</h1>
                 <p class="banner-desc">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning
                     because as to society behaved moments.</p>
-                <button class="btn-primary" style="margin-right: 30px;">Download CV</button>
-                <button class="btn-secondary">Contact</button>
+                <button class="btn-primary" style="margin-right: 30px;"><i class="fa-solid fa-download contact-icon"></i>Download CV</button>
+                <button class="btn-secondary"><i class="fa-solid fa-phone contact-icon"></i>Contact</button>
             </div>
             <img src="images/hardy.png" alt="">
         </section>
@@ -159,9 +159,41 @@
                     </div>
                 </div>
             </div>
+
+            <div class="btn-div">
+                <button class="btn-primary btn-cv">Download CV</button>
+            </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer-connect">
+            <h2 class="section-title">Lets Connect</h2>
+            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET,
+                Monday through Friday.</p>
+            <div class="social-icons">
+                <a href="facebook.com">
+                    <img src="images/icons/facebook.png" alt="facebook site">
+                </a>
+                <a href="x.com">
+                    <img src="images/icons/twitter.png" alt="facebook site">
+                </a>
+                <a href="instagram.com">
+                    <img src="images/icons/insta.png" alt="facebook site">
+                </a>
+            </div>
+        </div>
+        <div class="footer-msg">
+            <h3 class="section-title">Let’s Message me</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="text" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" rows="5" placeholder="Message"></textarea>
+                <div>
+                    <button class="btn-primary footer-submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>
